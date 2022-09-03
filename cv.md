@@ -25,3 +25,16 @@ From this course I want to get a lot of experience and knowledge in the field of
 01.09.2014 - 01.08.2019
 
 ----
+
+## Example code
+
+```
+function multiply(a, b){
+  return a * b
+}
+```
+ ----
+
+## Language
+* English - **A1**
+* Russian - **Mother tongue**
