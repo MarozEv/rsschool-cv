@@ -19,3 +19,9 @@ From this course I want to get a lot of experience and knowledge in the field of
 
 ---
 
+## Education
+**Civil engineer**
+[Yanka Kupala State Universite of grodno](https://www.grsu.by/)      
+01.09.2014 - 01.08.2019
+
+----
