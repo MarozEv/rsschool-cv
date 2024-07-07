@@ -1,3 +1,211 @@
-h1 {
-    color: rgb(14, 162, 211);
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-size: large;
+}
+.header{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.name{
+    padding-left: 10px;
+}
+.greating{
+    padding-top: 30px;
+}
+.wrapper{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigator{
+    display: flex;
+    gap: 80px;
+    padding-right: 10px;
+}
+.navigator_text{
+    text-decoration: none;
+}
+.navigator li a{
+    color: orange;
+}
+ul{ 
+    list-style-type: "😎";
+}
+.main_content{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.wrapper_image{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px
+}
+.circle-image{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+  }
+  .circle-image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+  .skills{
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 30px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .my_skills{
+    columns: 3;
+    gap: 150px;
+  }
+  .text_skill{
+    padding: 10px 10px;
+  }
+.work_examples{
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.examples_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.code_text{
+    padding: 2em;
+    background: #f0f0f0;
+  }
+.code_word{
+    color: blueviolet;
+  }
+.code_keyboadr{
+    color: rgb(209, 144, 25);
+  }
+.code_simbol{
+    color: blue;
+  }
+.study_examples{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+.projects_container{
+
+}
+.img_projects{
+    width: 200px;
+    height: 100px;
+  }
+.projects_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 135px;
+}
+.projects_container h3 a{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 13px;
+    text-decoration: none;
+    color: orange
+}
+.my_language{
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.my_language div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 25%;
+    gap: 10px;
+}
+.my_education{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 20px;
+}
+.about_me{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+.my_contacts{
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.my_contacts div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 60%;
+    gap: 10px;
+    padding-bottom: 13px;
+}
+footer{
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.footer_content{
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.git_conteiner{
+    width: 4%;
+    padding: 0 0 0px 15px;
+}
+.rs_conteiner{
+    width: 6%;
+    padding: 0 15px 0px 0;
+}
+.git_ico{
+    width: 100%;
+}
+.rs_ico{
+    width: 100%;
+}
+footer, header{
+    width: 1080px;
+    margin: 0 auto;
+    background-color: rgb(95 130 56);
+}
+main{
+    width: 1080px;
+    margin: 0 auto;
+    background-color: rgb(124 164 164);
 }
